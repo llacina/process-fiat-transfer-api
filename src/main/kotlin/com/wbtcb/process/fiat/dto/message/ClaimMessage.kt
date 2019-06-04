@@ -15,4 +15,4 @@ data class ClaimMessage constructor(
     val comment: String?,
     val status: ClaimStatus,
     val metadata: JsonNode?
-    ) : Serializable
+) : Serializable
